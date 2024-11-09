@@ -26,12 +26,12 @@ public class SpiceJetBookingTest {
     public void setUp() {
        
 
-        // Initialize Chrome WebDriver
+       
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
 
-        // Initialize WebDriverWait for handling waits
+        
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         
         driver.get("https://www.spicejet.com/");
